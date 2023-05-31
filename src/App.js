@@ -17,8 +17,8 @@ function App() {
            Pet World</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="history">History</Nav.Link>
-            <Nav.Link href="cart">Cart</Nav.Link>
+            <Nav.Link href="/history">History</Nav.Link>
+            <Nav.Link href="/cart">Cart</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

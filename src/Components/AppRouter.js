@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import CartPage from "./CartPage";
 import HistoryPage from "./HistoryPage";
@@ -28,22 +28,22 @@ const AppRouter = () => {
   };
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route
-            path="#/"
+            path="/"
             element={<HomePage addToCart={addToCart} />}
         />
         <Route 
-            path="#/history"
+            path="/history"
             element={<HistoryPage />}
         />
         <Route
-            path="#/cart"
+            path="/cart"
             element={<CartPage cartItems={cartItems} removeFromCart={removeFromCart} />}
         />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 

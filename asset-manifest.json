@@ -1,7 +1,7 @@
 {
   "main.css": "/pet-world/static/css/main.bce2f410.chunk.css",
-  "main.js": "/pet-world/static/js/main.a6758bad.chunk.js",
-  "main.js.map": "/pet-world/static/js/main.a6758bad.chunk.js.map",
+  "main.js": "/pet-world/static/js/main.6178f206.chunk.js",
+  "main.js.map": "/pet-world/static/js/main.6178f206.chunk.js.map",
   "static/css/1.88022c2e.chunk.css": "/pet-world/static/css/1.88022c2e.chunk.css",
   "static/js/1.1e49b63d.chunk.js": "/pet-world/static/js/1.1e49b63d.chunk.js",
   "static/js/1.1e49b63d.chunk.js.map": "/pet-world/static/js/1.1e49b63d.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.88022c2e.chunk.css.map": "/pet-world/static/css/1.88022c2e.chunk.css.map",
   "static/css/main.bce2f410.chunk.css.map": "/pet-world/static/css/main.bce2f410.chunk.css.map",
   "index.html": "/pet-world/index.html",
-  "precache-manifest.76bf292d14f202fe4836f336a42d76b4.js": "/pet-world/precache-manifest.76bf292d14f202fe4836f336a42d76b4.js",
+  "precache-manifest.e2ca5be2b7e2bec3ea3f522e80acd803.js": "/pet-world/precache-manifest.e2ca5be2b7e2bec3ea3f522e80acd803.js",
   "service-worker.js": "/pet-world/service-worker.js"
 }

@@ -31,7 +31,7 @@ const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         <Route
-            path="/"
+            path="/pet-world"
             element={<HomePage addToCart={addToCart} />}
         />
         <Route 

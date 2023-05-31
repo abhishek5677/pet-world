@@ -31,15 +31,15 @@ const AppRouter = () => {
     <HashRouter>
       <Routes>
         <Route
-            path="/"
+            path="#/"
             element={<HomePage addToCart={addToCart} />}
         />
         <Route 
-            path="/history"
+            path="#/history"
             element={<HistoryPage />}
         />
         <Route
-            path="/cart"
+            path="#/cart"
             element={<CartPage cartItems={cartItems} removeFromCart={removeFromCart} />}
         />
       </Routes>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import CartPage from "./CartPage";
 import HistoryPage from "./HistoryPage";
@@ -28,10 +28,10 @@ const AppRouter = () => {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
-            path="/pet-world"
+            path="/"
             element={<HomePage addToCart={addToCart} />}
         />
         <Route 
@@ -43,7 +43,7 @@ const AppRouter = () => {
             element={<CartPage cartItems={cartItems} removeFromCart={removeFromCart} />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
